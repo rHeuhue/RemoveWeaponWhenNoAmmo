@@ -5,7 +5,7 @@
 new const g_szWeaponData[][] =
 {
 	"weapon_p228", 		"weapon_scout", 	"weapon_xm1014", 	"weapon_mac10", 	"weapon_aug", 
-	"weapon_elite", 	"weapon_fiveseven", "weapon_ump45", 	"weapon_sg550",
+	"weapon_elite", 	"weapon_fiveseven", 	"weapon_ump45", 	"weapon_sg550",
 	"weapon_galil", 	"weapon_famas", 	"weapon_usp", 		"weapon_glock18", 	"weapon_awp", 
 	"weapon_mp5navy", 	"weapon_m249", 		"weapon_m3", 		"weapon_m4a1", 		"weapon_tmp",
 	"weapon_g3sg1", 	"weapon_deagle", 	"weapon_sg552", 	"weapon_ak47", 		"weapon_p90"
