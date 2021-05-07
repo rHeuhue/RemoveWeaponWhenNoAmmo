@@ -19,7 +19,12 @@ public plugin_init()
 	
 	for (new i = 0; i < sizeof(g_szWeaponData); i++)
 		RegisterHam(Ham_Weapon_PrimaryAttack, g_szWeaponData[i], "Ham__Weapon_PrimaryAttack", 1)
+
+	register_clcmd("drop", "Command_BlockDrop")
 }
+
+public Command_BlockDrop(id)
+	return PLUGIN_HANDLED
 
 public Ham__Weapon_PrimaryAttack(iWeapon)
 {
